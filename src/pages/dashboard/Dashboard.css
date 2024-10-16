@@ -1,0 +1,36 @@
+/* Table container for scrolling */
+.table-container {
+    position: relative;
+    max-height: 400px; /* Adjust based on your needs */
+    overflow-y: auto;
+  }
+  
+  /* Sticky table header */
+  .table th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 1;
+  }
+  
+  /* Styling for table data cells */
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Centering and styling the table header text */
+  .table thead th {
+    text-align: center;
+    font-size: 1.2rem;  /* Bigger font size */
+    font-weight: bold;
+    padding: 15px;      /* Optional: add padding for better spacing */
+    color: rgb(123, 85, 159);
+    background-color: #f8f9fa;
+  }
+  
+  /* Custom text color for header */
+  .head {
+    color: rgb(131, 23, 226);
+  }
+  
